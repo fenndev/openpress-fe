@@ -2,9 +2,10 @@
   "name": "openpress-fe",
   "version": "0.0.1",
   "description": "The frontend code for OpenPress, a self-hostable blogging and news platform.",
-  "main": "index.js",
+  "main": "main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,17 @@
   "homepage": "https://github.com/fenndev/openpress-fe#readme",
   "dependencies": {
     "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-html": "^0.2.4",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "rollup-plugin-copy-assets": "^2.0.3",
+    "rollup-plugin-css-only": "^3.1.0",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0"
   }
 }
