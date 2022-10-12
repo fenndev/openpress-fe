@@ -1,0 +1,22 @@
+{
+  "name": "openpress-fe",
+  "version": "0.0.1",
+  "description": "The frontend code for OpenPress, a self-hostable blogging and news platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenndev/openpress-fe.git"
+  },
+  "author": "fenndev",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/fenndev/openpress-fe/issues"
+  },
+  "homepage": "https://github.com/fenndev/openpress-fe#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
