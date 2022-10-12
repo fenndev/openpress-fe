@@ -18,7 +18,7 @@ export default {
   plugins: [
     resolve({ browser: true }),
     commonjs(),
-	typescript({ sourceMap: !production, inlineSources: !production }),
+	  typescript({ sourceMap: !production, inlineSources: !production }),
     css({ output: 'bundle.css' }),
     html({ html: 
       { lang : 'en'}, 
